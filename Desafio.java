@@ -11,7 +11,10 @@ public class Desafio {
         System.out.print("Digite o seu nome: ");
         String nome = sc.next();
 
-        System.out.println("Bem vindo ao curso de git " + nome+"!");
+        System.out.print("Digite o seu sobrenome: ");
+        String sobreNome = sc.next();
+
+        System.out.println("Bem vindo ao curso de git " + nome + " " + sobreNome + "!");
 
         sc.close();
     }
