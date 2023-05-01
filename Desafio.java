@@ -6,5 +6,13 @@ public class Desafio {
 
         System.out.println("Desafio Curso Git!");
 
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Digite o seu nome: ");
+        String nome = sc.next();
+
+        System.out.println("Bem vindo ao curso de git " + nome+"!");
+
+        sc.close();
     }
 }
